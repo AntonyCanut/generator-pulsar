@@ -1,0 +1,6 @@
+language: csharp
+solution: <%= name %>.sln
+install:
+  - nuget restore <%= name %>.sln
+script:
+  - xbuild /p:Configuration=Release <%= name %>.sln

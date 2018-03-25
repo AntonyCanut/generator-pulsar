@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<base:BaseContentPage x:TypeArguments="vm:MainViewModel" 
+             xmlns:base="clr-namespace:<%= name %>.Views;assembly=<%= name %>"
+             xmlns:vm="clr-namespace:<%= name %>.ViewModels;assembly=<%= name %>"
+             xmlns:helpers="clr-namespace:<%= name %>.Helpers;assembly=<%= name %>"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:local="clr-namespace:<%= name %>"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="<%= name %>.Views.MainPage">
+    <Label Text="{helpers:Translate HelloWorld}"  
+           TextColor="{StaticResource <%= name %>Yellow}"
+           FontAttributes="Bold"
+           VerticalOptions="Center" 
+           HorizontalOptions="Center" />
+</base:BaseContentPage>
