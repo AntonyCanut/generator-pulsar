@@ -1,16 +1,16 @@
 {
-  "_from": "generator-pulsar-xamarin-forms",
-  "_id": "generator-pulsar-xamarin-formsp@1.0.6",
+  "_from": "generator-pulsar",
+  "_id": "generator-pulsar@1.0.0",
   "_inBundle": false,
   "_integrity": "sha512-Q2uRWGQPdTu7wh2bbuwzMe7Nnv1WqfpWAUmLjAO+nGvE1jcx13JC/wWS1vjwbo/pAPcxe5nBw3Iev5QYiSF1Rw==",
-  "_location": "/generator-pulsar-xamarin-forms",
+  "_location": "/generator-pulsar",
   "_phantomChildren": {},
   "_requested": {
     "type": "tag",
     "registry": true,
-    "raw": "generator-pulsar-xamarin-forms",
-    "name": "generator-pulsar-xamarin-forms",
-    "escapedName": "generatorpulsar-xamarin-forms",
+    "raw": "generator-pulsar",
+    "name": "generator-pulsar",
+    "escapedName": "generator-pulsar",
     "rawSpec": "",
     "saveSpec": null,
     "fetchSpec": "latest"
@@ -20,13 +20,13 @@
   ],
   "_resolved": "https://registry.npmjs.org/generator-pulsar-xamarin-forms/-/generator-pulsar-xamarin-forms-1.0.6.tgz",
   "_shasum": "6a61bec3b917cae093275bd6b13f07ce8b62a939",
-  "_spec": "generator-pulsar-xamarin-forms",
+  "_spec": "generator-pulsar",
   "_where": "/Users/canutantony/Projets",
   "author": {
     "name": "Antony Canut"
   },
   "bugs": {
-    "url": "https://github.com/ngeor/generator-pulsar-xamarin-forms/issues"
+    "url": "https://github.com/AntonyCanut/generator-pulsar"
   },
   "bundleDependencies": false,
   "dependencies": {
@@ -35,7 +35,7 @@
     "yeoman-generator": "^2.0.2"
   },
   "deprecated": false,
-  "description": "Yeoman generator for a C# Xamarin Forms app.",
+  "description": "Yeoman generator for a mobile app.",
   "devDependencies": {
     "eslint": "^4.15.0",
     "eslint-config-bestseller": "^1.1.15",
@@ -46,19 +46,21 @@
     "yeoman-assert": "^3.1.0",
     "yeoman-test": "^1.7.0"
   },
-  "homepage": "https://github.com/ngeor/generator-pulsar-xamarin-forms#readme",
+  "homepage": "https://github.com/AntonyCanut/generator-pulsar",
   "keywords": [
-    "yeoman-generator"
+    "yeoman-generator",
+    "xamarin",
+    "xamarin-forms"
   ],
   "license": "MIT",
   "main": "app/index.js",
-  "name": "generator-pulsar-xamarin-forms",
+  "name": "generator-pulsar",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ngeor/generator-pulsar-xamarin-forms.git"
+    "url": "https://github.com/AntonyCanut/generator-pulsar.git"
   },
   "scripts": {
     "test": "gulp"
   },
-  "version": "1.0.6"
+  "version": "1.0.0"
 }
